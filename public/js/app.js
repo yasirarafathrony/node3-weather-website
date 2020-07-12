@@ -35,8 +35,7 @@ weatherForm.addEventListener('submit', (e) =>{
             messageOne.textContent = data.location
             messageOne.textContent = data.forecast
 
-            // console.log(data.location)
-            // console.log(data.forecast)
+            // deleting some comments.
         }
     })
 })
