@@ -77,11 +77,7 @@ app.get('/weather', (req, res)=>{
             })
         })
     })
-    // res.send({
-    //     forecast: 'It is snowing',
-    //     location: 'Philadelphia',
-    //     address: req.query.address
-    // })
+    // Deleting some comments.
 })
 
 app.get('/products',(req, res)=>{
